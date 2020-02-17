@@ -1,0 +1,22 @@
+$primary: rgb(72, 198, 214);
+// This has to go after we already have overwritten default Bootstrap classes
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  background: black;
+}
+
+.webpack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+
+#result {
+  font-size: larger;
+  font-weight: bolder;
+  padding: 0.2rem;
+}
